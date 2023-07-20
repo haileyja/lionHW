@@ -2,6 +2,7 @@ body {
     background-image: url(./images/bg.png);
     background-size: auto;
     background-repeat: no-repeat;
+  
 
 }
 
@@ -12,10 +13,9 @@ body {
     top: 57px;
     left: 490px;
     margin: 0 auto;
-    top:50%;
-left:50%;
-transform:translate(-80%, 30%);
- 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .wrap {
@@ -28,9 +28,10 @@ border: 0px 0px 10px 0px;
 margin: 0 auto;
 background: linear-gradient(0deg, #9C6035, #9C6035);
 border-bottom: 10px solid #46260E;
-top:50%;
-left:50%;
-transform:translate(-80%, 30%);
+display: flex;
+align-items: center;
+justify-content: center;
+
 
 }
 .letter h1 {
