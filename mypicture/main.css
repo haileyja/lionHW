@@ -76,10 +76,10 @@ body {
     top: 3rem;
     bottom:9rem;
     left:-10rem;
-    right: 10rem;
+    right: 12rem;
     width: 200px;
     height: 204px;
-    transform: rotate(10deg);
+    transform: rotate(-10deg);
 }
 
 .container  {
