@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <title>위니브 로그인</title>
   </head>
 
 
@@ -13,7 +14,7 @@
     <div class="modal">
      <header class="header">
         <h1 >로그인 또는 회원가입 </h1>
-        <img class="close-btn" src="./images/close.png" alt="닫기 버튼">
+        <a href="#"><img class="close-btn" src="./images/close.png" alt="닫기 버튼"></a>
      </header>
 
      <hr>
@@ -29,15 +30,17 @@
                 class="user-pw"
                 id="user-pw"
                 type="password"
-                placeholder="비밀번호"
+                placeholder="비밀번호 "
               />
        </div>
         
   
-          <input type="checkbox" class="checkbox" id="check" name="로그인 상태유지"/> 
-          <label for="check">로그인 상태 유지</label>
-  
-          <button class="btn" type="submit">로그인</button>
+       <form class ="form-login">
+            <input type="checkbox" class="checkbox" id="check"/> 
+            <label class="checkbox-hold" for="check">로그인 상태 유지</label>
+    
+            <button class="btn" type="submit">로그인</button>
+       </form>
   
          <div class="join">
             <a href="#">회원가입 </a>
@@ -49,13 +52,15 @@
 
       <p class="line">또는</p>
 
-      <section class="sns">
-        <button class="sns-button google" href="#">구글 계정으로 로그인</button>
-        <button class="sns-button facebook" href="#">페이스북 계정으로 로그인</button>
-        <button class="sns-button naver" href="#">네이버 계정으로 로그인</button>
-        <button class="sns-button kakao" href="#">카카오톡 계정으로 로그인</button>
+      <section class="sns-group">
+      <ul>
+          <li><a href="#" class="sns-icon link-google" >구글 계정으로 로그인</a></li>
+          <li><a href="#" class="sns-icon link-facebook" >페이스북 계정으로 로그인</a></li>
+          <li><a href="#" class="sns-icon link-naver">네이버 계정으로 로그인</a></li>
+          <li><a href="#" class="sns-icon link-kakao">카카오톡 계정으로 로그인</a></li>
+      </ul>
       </section>
-
+      
      
     </div>
   </body>
